@@ -89,3 +89,16 @@ mvn javadoc:javadoc
 ```
 
 以上で `target/apidocs/apidocs` にドキュメント生成。
+
+### テスト
+JUnitはデフォルトは3.8.1なので、
+```
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
+```
+
+に変更。
