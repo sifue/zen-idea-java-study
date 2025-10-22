@@ -114,3 +114,22 @@ UIは全然違うので臨機応変に説明が必要。
 プロになるJavaの流れをやりつつ、それをコマンドラインとテキストで解説する。
 ここだけZEN StudyのWebアプリケーション2の9回、10回をやるのも手。
 
+### Spring Boot
+
+Spring Initializrが古いSpringBootをサポートしなくなっている。
+[https://start.spring.io/](https://start.spring.io/)
+
+最新にしつつMavenで行うのが良さそう。(あとでテンプレートエンジンを足すため)
+一旦
+- Maven
+- Java
+- Spring Boot 3.5.6
+- jp.gihyo.projava
+- tasklist
+- tasklist
+- Spring Bootを使ったタスク管理アプリケーション
+- jp.gihyo.projava.tasklist
+- Jar
+- Java 25
+- Spring Web
+で作成。
